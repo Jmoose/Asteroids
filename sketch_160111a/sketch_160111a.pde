@@ -17,11 +17,11 @@ y=50;
 
 void draw(){
   background(ast);
-  if(keyCode == UP){
+  if(keyCode == ENTER){
   y= y++;
-  }
+  background(0);
   triangle(x,y -20, x-10, y, x+10, y);
-  
+  }
   
   
   
