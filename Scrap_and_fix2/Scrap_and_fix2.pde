@@ -81,7 +81,7 @@ void draw() {
         lives--;
         asteroid.loc.set(random(width),random(height));
       }
-      if(lives==0){
+      if(lives<=0){
         gameMode=4;
         player.pause();
       }
